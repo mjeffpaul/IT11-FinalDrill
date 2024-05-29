@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 5px;
+}
+
+#searchButton {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#movieDetails {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#detailsContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#leftDetails {
+    padding: 20px;
+    flex: 1;
+}
+
+#detailsContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+#similarMovies {
+    margin-top: 20px;
+}
+
+.movie-container-similar {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.similarMovie {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.similarMovie img {
+    width: 150px; /* Adjust the size based on your preference */
+    height: 225px; /* Adjust the size based on your preference */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.similarMovie h3 {
+    font-size: 1em;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

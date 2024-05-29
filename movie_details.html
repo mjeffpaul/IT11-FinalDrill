@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles-movie_details.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index-movie.html">Movie Search App</a></h1>
+    </header>
+    <div id="moviesTitle"></div>
+    <section id="movieDetails">
+        <h1>Movie Details</h1>
+        <div id="movieContainer">
+            <p><strong>Director:</strong> Christopher Nolan</p>
+            <p><strong>Stars:</strong> Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page</p>
+            <p><strong>Genre:</strong> Sci-Fi, Action</p>
+            <p><strong>Release:</strong> July 16, 2010</p>
+            <p><strong>Rating:</strong> 8.8/10</p>
+            <p><strong>Story:</strong> Inception is a science fiction action film...</p>
+            <img src="http://image.tmdb.org/t/p/w500/2n95p9isIi1LYTscTcGytlI4zYd.jpg" alt="Inception Poster">
+        </div>
+    </section>
+    <h1>Similar Movies</h1>
+    <section id="similarMovies" class="movie-container-similar">
+        <h1>Similar Movies</h1>
+    </section>
+
+    <script src="movie-script-sample.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            init();
+        });
+    </script>
+</body>
+</html>
